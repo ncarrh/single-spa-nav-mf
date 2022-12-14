@@ -2,9 +2,10 @@
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "module": "es2015",
   },
-  "files": ["src/ripleyx-nav-mf.tsx"],
+  "files": ["src/ripley-nav-mf.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
